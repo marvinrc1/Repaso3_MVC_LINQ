@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="repaso3MVC" Class="DB_LinQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\sqlexpress03;Initial Catalog=repaso3MVC;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="repaso3MVCConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.productos" Member="productos">
+    <Type Name="producto">
+      <Column Name="id_producto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="categoria" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="nombre_producto" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="descripcion_produto" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="precio" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Association Name="producto_venta" Member="ventas" ThisKey="id_producto" OtherKey="id_producto" Type="venta" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ventas" Member="ventas">
+    <Type Name="venta">
+      <Column Name="id_venta" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_producto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fecha_venta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Association Name="producto_venta" Member="producto" ThisKey="id_producto" OtherKey="id_producto" Type="producto" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.v_venta" Member="v_ventas">
+    <Type Name="v_venta">
+      <Column Name="categoria" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="nombre_producto" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="descripcion_produto" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="precio" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="fecha_venta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="id_venta" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.insert_producto" Method="insert_producto">
+    <Parameter Name="categoria" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="nombrep" Type="System.String" DbType="VarChar(40)" />
+    <Parameter Name="descripcion" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="precio" Type="System.Decimal" DbType="Decimal(10,2)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.update_producto" Method="update_producto">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="categoria" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="nombrep" Type="System.String" DbType="VarChar(40)" />
+    <Parameter Name="descripcion" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="precio" Type="System.Decimal" DbType="Decimal(10,2)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delete_producto" Method="delete_producto">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insert_venta" Method="insert_venta">
+    <Parameter Name="idproducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cantidad" Type="System.Int32" DbType="Int" />
+    <ElementType Name="insert_ventaResult">
+      <Column Name="Mensaje" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.update_venta" Method="update_venta">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idproducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cantidad" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delete_venta" Method="delete_venta">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

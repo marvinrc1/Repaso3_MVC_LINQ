@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|d:\\marvi\\repasoc#\\repaso3_mvc_linq\\repaso3_mvc_linq\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|solutionrelative:repaso3_mvc_linq\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\repaso3_mvc_linq\\views\\productosc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|solutionrelative:repaso3_mvc_linq\\views\\productosc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\repaso3_mvc_linq\\views\\ventasc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|solutionrelative:repaso3_mvc_linq\\views\\ventasc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\repaso3_mvc_linq\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC55C5A-441D-4A20-BC30-3D300EC2C187}|Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ.csproj|solutionrelative:repaso3_mvc_linq\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\.gitignore",
+              "RelativeDocumentMoniker": "Repaso3_MVC_LINQ\\.gitignore",
+              "ToolTip": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\.gitignore",
+              "RelativeToolTip": "Repaso3_MVC_LINQ\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-11T21:53:12.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\Views\\ProductosC\\Index.cshtml",
+              "RelativeDocumentMoniker": "Repaso3_MVC_LINQ\\Views\\ProductosC\\Index.cshtml",
+              "ToolTip": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\Views\\ProductosC\\Index.cshtml",
+              "RelativeToolTip": "Repaso3_MVC_LINQ\\Views\\ProductosC\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T17:00:06.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\Views\\VentasC\\Index.cshtml",
+              "RelativeDocumentMoniker": "Repaso3_MVC_LINQ\\Views\\VentasC\\Index.cshtml",
+              "ToolTip": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\Views\\VentasC\\Index.cshtml",
+              "RelativeToolTip": "Repaso3_MVC_LINQ\\Views\\VentasC\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T16:55:46.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Repaso3_MVC_LINQ\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\marvi\\RepasoC#\\Repaso3_MVC_LINQ\\Repaso3_MVC_LINQ\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Repaso3_MVC_LINQ\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T16:51:49.708Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
